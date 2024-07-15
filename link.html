@@ -1,42 +1,29 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <style>
-        a {
-            font-size: 20px;
-            font-weight: bold;
-            text-decoration: none;
-            padding: 10px 30px;
-        }
 
-        div {
-            width: 100%;
-            height: 300px;
-            background-color: #7EC8E3;
-            font-size: 25px;
-            color: white;
-            text-align: center;
-            margin: 8px 5px;
-        }
-    </style>
 </head>
-
 <body>
-   <a href="#section1">A</a>
-   <a href="#section2">B</a>
-   <a href="#section3">C</a>
 
-   <div id="section1">
-    Section 1
-</div>
-<div id="section2">
-    Section 2
-</div>
-<div id="section3">
-    Section 3
-</div>
-
+<map name="primary">
+    <area
+      shape="circle"
+      coords="75,75,75"
+      href="https://developer.mozilla.org/docs/Web/JavaScript"
+      target="_blank"
+      alt="JavaScript" />
+    <area
+      shape="circle"
+      coords="275,75,75"
+      href="https://developer.mozilla.org/docs/Web/CSS"
+      target="_blank"
+      alt="CSS" />
+  </map>
+  <img
+    usemap="#primary"
+    src="./images/FAQ.png"
+    alt="350 x 150 picture of two parrots" />
+  
 
 </body>
 
