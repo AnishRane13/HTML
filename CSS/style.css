@@ -1,0 +1,11 @@
+.container{
+    height: ;
+    width: 100;
+}
+
+.text{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
