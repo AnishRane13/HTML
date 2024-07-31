@@ -1,14 +1,4 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color: darkred; */
-}
-
-.vert{
-    height: 2500px;
-    width: 100px;
-    background-color: red;
-    background-image: url('../images/logo.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
