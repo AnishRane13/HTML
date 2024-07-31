@@ -4,11 +4,18 @@
     /* background-color: darkred; */
 }
 
-.vert{
-    height: 2500px;
-    width: 100px;
+header{
+    height: 34px;
+    background: wheat;
+   
+}
+
+.content{
     background-color: red;
-    background-image: url('../images/logo.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    height: 90vh;
+}
+
+footer{
+    background-color: purple;
+    text-align: center;
 }
