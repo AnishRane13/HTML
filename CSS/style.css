@@ -1,4 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    /* background-color: darkred; */
 }
+
+.box1{
+    width: 431px;
+    height: 1134px;
+    background-color: red;
+    display: inline;
+}
+
+.box2{
+    width: 431px;
+    height: 1134px;
+    background-color: blue;
+}
+
+
+
