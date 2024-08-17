@@ -4,15 +4,12 @@
 }
 
 .container{
-    display: grid;
-    grid-row-gap: 9px;
-    grid-column-gap: 19px;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows:150px;
+  background-color: red;
+  height: 34vh;
 }
 
-.item{
-    height: 20px;
-    border: 2px solid red;
-    background-color: aqua;
+@media screen and (max-width: 800px) {
+    body{
+        background-color: brown;
+    }
 }
