@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+}
+
+.para{
+    line-height: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.btn{
+    background-color: red;
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.btn:hover{
+    background-color: blue;
+}
